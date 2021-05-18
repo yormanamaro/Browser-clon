@@ -34,3 +34,19 @@ nav .nav-right-section a
     margin-right: 10px;
     color: black;
 }
+nav .nav-right-section .menu-icon
+{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img
+{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+}
