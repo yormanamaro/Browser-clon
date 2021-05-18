@@ -5,6 +5,11 @@ body
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
 header
 {
     width: 100%;
@@ -14,4 +19,18 @@ header nav
 {
     display: flex;
     justify-content: flex-end;
+}
+header nav .nav-right-section
+{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a
+{
+    margin-right: 10px;
+    color: black;
 }
